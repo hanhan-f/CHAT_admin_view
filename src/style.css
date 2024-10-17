@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+#app {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+span:hover{
+  cursor: context-menu;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+/* 浮动样式 */
+.flot-style{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 初始阴影 */
+  transition: 0.3s ease;
+}
+.flot-style:hover{
+  transform: translateY(-5px); /* 向上移动5px */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* 增加阴影的高度和模糊度 */
+}
+.flot-style:active{
+  transform: translateY(0); /* 恢复原位 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 恢复初始阴影 */
+}
+
+.dis-gap{
+  background-color: #939393 !important;
+}
